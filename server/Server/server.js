@@ -19,6 +19,16 @@ const db = mongoose.connection;
 db.on('error',console.error.bind(console,'MongoDb Connection Error:'))
 db.once('open',()=>console.log("MongoDB connected Successfully"))
 
+const newProduct =productSchema({id:2,image:["./Public/P2417h"],title:"Dell U2417h",description:"Dell's Ultra Sharp Monitor",price:23000}) ;
+
+newProduct.save()
+  .then((product) => {
+    console.log('Product created:', product);
+  })
+  .catch((err) => {
+    console.error('Error creating product:', err);
+  });
+
 
 
 const getAllProducts = async () =>{
