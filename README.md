@@ -1,5 +1,5 @@
 Project Overview
-Welcome to our MERN-based e-commerce store project!
+Welcome to my MERN-based e-commerce store project!
 
 Description
 Our e-commerce store project is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, offering developers a comprehensive example of building a full-fledged online shopping platform.
