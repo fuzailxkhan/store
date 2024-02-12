@@ -1,0 +1,10 @@
+.ms-5 {
+    margin-left: (spacer * 6) !important;
+}
+
+.card-body:hover{
+    cursor: pointer;
+}
+.card-img-top:hover{
+    cursor: pointer;
+}
