@@ -1,6 +1,6 @@
 # Project Overview
 
-Welcome to my MERN-based e-commerce store project!
+Welcome to my MERN-based fully fledged e-commerce store project!
 
 ## Description
 
