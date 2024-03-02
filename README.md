@@ -12,7 +12,7 @@ My e-commerce store project is built using the MERN (MongoDB, Express.js, React.
   
 - **Intuitive User Interface**: With React.js on the front end, we've designed an intuitive user interface that allows seamless navigation and browsing of products.
 
-- **Robust Backend**: The backend, powered by Node.js and Express.js, ensures high performance and reliability, handling crucial functionalities such as user authentication, product management, and order processing.
+- **Backend**: The backend, powered by Node.js and Express.js, ensures high performance and reliability, handling crucial functionalities such as user authentication, product management, and order processing.
 
 - **RESTful API**: Our project demonstrates the implementation of RESTful API endpoints for handling CRUD operations on products, users, and their orders.
 
