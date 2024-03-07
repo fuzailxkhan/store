@@ -66,8 +66,7 @@ function App() {
       !searchGiven?<ProductCards addToCart={(p)=>{setCartProducts(handleAddToCart(p,cartProducts))}} lop={products} onClick={(product)=>setProductModal(product)}/>:
       filteredProducts&&
       filteredProducts?.length!=0?<ProductCards addToCart={(p)=>{setCartProducts(handleAddToCart(p,cartProducts))}} lop={filteredProducts} onClick={(product)=>setProductModal(product)}/>:
-      <Alert alert="Product Not Found"/>}
-      
+      <Alert alert="Product Not Found"/>}      
 
       <Cart deleteCartProduct={(p)=>{setCartProducts(handleDeleteCartProduct(p,cartProducts))}} isOpen={cartOpen} toggleCart={()=>setCartOpen(!cartOpen)} lop={cartProducts} />
 
