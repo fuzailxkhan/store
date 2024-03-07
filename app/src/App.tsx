@@ -25,7 +25,6 @@ function App() {
   const [searchGiven,setSearchGiven] = useState<boolean>(false);
 
 
-
   useEffect(()=>{
     const controller = new AbortController();
     
