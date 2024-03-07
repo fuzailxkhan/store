@@ -24,7 +24,6 @@ function App() {
   const [filteredProducts,setFilteredProducts] = useState<product[]>(); 
   const [searchGiven,setSearchGiven] = useState<boolean>(false);
 
-
   useEffect(()=>{
     const controller = new AbortController();
     
