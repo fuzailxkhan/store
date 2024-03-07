@@ -69,7 +69,6 @@ function App() {
       <Alert alert="Product Not Found"/>}
       
       
-      
 
       <Cart deleteCartProduct={(p)=>{setCartProducts(handleDeleteCartProduct(p,cartProducts))}} isOpen={cartOpen} toggleCart={()=>setCartOpen(!cartOpen)} lop={cartProducts} />
 
